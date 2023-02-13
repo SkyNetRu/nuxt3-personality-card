@@ -1,0 +1,40 @@
+html {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 500;
+  color: #505050;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+p, td, th, span {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 45px;
+  color: #FFA789;
+}
+
+.bg-orange-150 {
+  background: #FFA573;
+}
+
+@media only screen and (min-width: 640px)  {
+  p, td, th, span {
+    font-size: 36px;
+    line-height: 59px;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 79px;
+  }
+}
+
+
+
